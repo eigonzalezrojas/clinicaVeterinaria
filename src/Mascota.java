@@ -1,11 +1,11 @@
 public class Mascota {
-    public int id;
-    public String nombre;
-    public String raza;
-    public String especie;
-    public String anioNacimiento;
-    public double peso;
-    public Duenio duenio;
+    private int id;
+    private String nombre;
+    private String raza;
+    private String especie;
+    private String anioNacimiento;
+    private double peso;
+    private Duenio duenio;
 
     public Mascota(int id, String nombre, String raza, String especie, String anioNacimiento, double peso, Duenio duenio) {
         this.id = id;

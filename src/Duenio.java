@@ -1,9 +1,9 @@
 public class Duenio {
-    public String rut;
-    public String nombre;
-    public String direccion;
-    public String telefono;
-    public String correo;
+    private String rut;
+    private String nombre;
+    private String direccion;
+    private String telefono;
+    private String correo;
 
     public Duenio(String rut, String nombre, String direccion, String telefono, String correo) {
         this.rut = rut;

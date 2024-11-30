@@ -1,10 +1,10 @@
 public class Usuario {
-    public String rut;
-    public String nombre;
-    public String direccion;
-    public String telefono;
-    public String correo;
-    public String password;
+    private String rut;
+    private String nombre;
+    private String direccion;
+    private String telefono;
+    private String correo;
+    private String password;
 
     public Usuario(String rut, String nombre, String direccion, String telefono, String correo, String password) {
         this.rut = rut;
