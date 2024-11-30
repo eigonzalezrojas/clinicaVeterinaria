@@ -80,7 +80,6 @@ public class SistemaVeterinaria {
         }
     }
 
-    // Método para obtener todas las mascotas de la base de datos
     public List<Mascota> obtenerMascotas() {
         List<Mascota> mascotas = new ArrayList<>();
         String sql = "SELECT * FROM mascotas";
