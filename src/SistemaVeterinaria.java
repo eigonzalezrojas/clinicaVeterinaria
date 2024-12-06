@@ -24,6 +24,11 @@ public class SistemaVeterinaria {
         }
     }
 
+    // Se debe validar el usuario utilizando la base de datos
+    public boolean validarLogin(String rut, String password) {
+        return false;
+    }
+
     public void agregarUsuario(Usuario usuario) {
         String sql = "INSERT INTO usuarios (rut, nombre, direccion, telefono, correo, password) VALUES (?, ?, ?, ?, ?, ?)";
         try (PreparedStatement stmt = conexion.prepareStatement(sql)) {
